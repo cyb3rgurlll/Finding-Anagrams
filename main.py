@@ -6,7 +6,7 @@
 #Student ID: I4G033993TR5
 
 def find_anagram(word, anagram):
-    result=True
+ 
     # [assignment] Add your code here
     if(sorted(word) == sorted(anagram)):
         return True
